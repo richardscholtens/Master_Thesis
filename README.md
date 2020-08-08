@@ -1,5 +1,5 @@
 # Master_Thesis
-Multi-label classification of unclassifiednamed entitiesusingWikipedia’s main topic classifications.
+Multi-label classification of unclassifiednamed entities usingWikipedia’s main topic classifications.
 
 This research set out to see if it is possible to create an efficient and accurate
 fine-grained named entity multi-label classification system using Wikipedia’s Main
