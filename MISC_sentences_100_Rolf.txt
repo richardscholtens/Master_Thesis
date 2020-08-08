@@ -1,0 +1,504 @@
+Below one can find the sentences and the entities that must be labeled.
+Please write one or multiple labels behind the "ANSWER:" each seperated with a tab.
+
+EXAMPLE SENTENCE:	Het aantal Afgevaardigden in het Congres werd bepaald door het aantal inwoners van een staat ; het Noorden had veel meer inwoners dan het Zuiden .
+EXAMPLE ENTITY 83:	Afgevaardigden
+EXAMPLE ANSWER:	Category:Government	Category:Politics
+
+The following labels can be used. Please note multiple labels may be assigned for one entity:
+
+Category:Academic_disciplines
+Category:Business
+Category:Crime
+Category:Culture
+Category:Economy
+Category:Education
+Category:Energy
+Category:Engineering
+Category:Entertainment
+Category:Food_and_drink
+Category:Geography
+Category:Government
+Category:Health
+Category:History_&_Events
+Category:Human_behavior
+Category:Humanities
+Category:Industry
+Category:Knowledge
+Category:Language
+Category:Law
+Category:Life
+Category:Mass_media
+Category:Mathematics
+Category:Military
+Category:Music
+Category:Nature
+Category:Philosophy
+Category:Politics
+Category:Religion
+Category:Science
+Category:Society
+Category:Sports
+Category:Technology
+Category:World
+
+
+SENTENCE:	PDF -bestand over de rivier
+ENTITY 1:	PDF
+ANSWER 1:	Category:Technology
+
+
+SENTENCE:	Vorig jaar kroop hij een dag op de hoofdredacteursstoel van de Britse krant The Independent voor de promotie van de Productcampagne voor Afrika .
+ENTITY 2:	Productcampagne
+ANSWER 2:	Category:Business	Category:Mass_media
+
+
+SENTENCE:	Bono ging voor het eerst op bezoek bij Condé Nast HQ in New York in januari .
+ENTITY 3:	HQ
+ANSWER 3:	Category:Business	Category:Industry
+
+
+SENTENCE:	Hij en de meesten van zijn medewerkers in New York namen ook deel aan een experiment dat wordt beschreven in een artikel van Spencer Wells , hoofd van het zogenaamde Genographic Project .
+ENTITY 4:	Genographic Project
+ANSWER 4:	Category:Academic_disciplines	Category:Knowledge Category:Science
+
+
+SENTENCE:	Toespraak Eerste Minister bij de opening van het feestjaar 175-25 België Brussel , 17 februari 2005
+ENTITY 5:	Eerste Minister
+ANSWER 5:	Category:Politics	Category:Government
+
+
+SENTENCE:	Het Amerikaanse ministerie van Justitie begint een gerechtelijk onderzoek naar de failliete energiereus Enron .
+ENTITY 6:	Justitie
+ANSWER 6:	Category:Government	Category:Law Category:Crime
+
+
+SENTENCE:	Het Witte Huis maakt bekend dat het bedrijf kort voor zijn neergang in december hulp vroeg aan de regering van Bush , onder meer aan Paul O'Neill , minister van Financiën .
+ENTITY 7:	Financiën
+ANSWER 7:	Category:Economy	Category:Government
+
+
+SENTENCE:	Het internationaal gerechtshof in Den Haag verplicht België om het aanhoudingsmandaat voor de gewezen Congolese minister van Buitenlandse Zaken Abdulaye Yerodia Ndombasi in te trekken .
+ENTITY 8:	Buitenlandse Zaken
+ANSWER 8:	Category:Government	Category:World
+
+
+SENTENCE:	In april 2000 vaardigde België een arrestatiebevel tegen Yerodia uit omdat die twee jaar eerder tot genocide zou hebben aangezet door Congolese Tutsi met ongedierte te vergelijken .
+ENTITY 9:	Tutsi
+ANSWER 9:	Category:Religion	Category:Humanities
+
+
+SENTENCE:	Minister van Economische Zaken
+ENTITY 10:	Economische Zaken
+ANSWER 10:	Category:Government	Category:Economy Category:Business
+
+
+SENTENCE:	BBP
+ENTITY 11:	BBP
+ANSWER 11:	Category:Government	Category:Economy	Category:Business	Category:Human_behavior
+
+
+SENTENCE:	Hr. Ms. Ambassadeur
+ENTITY 12:	Hr. Ms. Ambassadeur
+ANSWER 12:	Category:Government	Category:Politics
+
+
+SENTENCE:	Jhr. R. H. Loudon ( sinds januari 2001 )
+ENTITY 13:	Jhr.
+ANSWER 13:	Category:Language
+
+
+SENTENCE:	Dhr. M.B. Pensa ( sinds december 2002 )
+ENTITY 14:	Dhr.
+ANSWER 14:	Category:Language
+
+
+SENTENCE:	In Midden-Italië was de macht van de Paus een constante factor .
+ENTITY 15:	Paus
+ANSWER 15:	Category:Religion	Category:Humanities Category:Culture
+
+
+SENTENCE:	In de 16de eeuw ontstond , mede gevoed door de Renaissance , het idee van een Italiaanse nationaliteit .
+ENTITY 16:	Renaissance
+ANSWER 16:	Category:History_&_Events	Category:Society Category:Culture
+
+
+SENTENCE:	In 1861 kwam het Italiaanse koninkrijk tot stand onder leiding van Koning Victor Emanuel II .
+ENTITY 17:	Koning
+ANSWER 17:	Category:Government	Category:Society
+
+
+SENTENCE:	Van 1943 tot 1945 woedde er in Italië een strijd tussen Duitsland en de extremistische fascisten van Mussolini aan de ene kant en de Geallieerden gesteund door de Italiaanse verzetsbeweging aan de andere kant .
+ENTITY 18:	Geallieerden
+ANSWER 18:	Category:World	Category:Military	Category:Government
+
+
+SENTENCE:	De operatie ' Schone Handen ' leidde in het begin van de jaren negentig tot het uiteenvallen van het traditionele politieke bestel .
+ENTITY 19:	Schone Handen
+ANSWER 19:	Category:Politics	Category:Crime
+
+
+SENTENCE:	Zo zou de premier , zelf eigenaar van een groot media-imperium met onder andere drie commerciële Tv -kanalen , misbruik maken van de invloed die hij in zijn functie kan uitoefenen op de staatsomroep RAI .
+ENTITY 20:	Tv
+ANSWER 20:	Category:Mass_media	Category:Entertainment
+
+
+SENTENCE:	Verder loopt er nog altijd een rechtszaak tegen Berlusconi vanwege omkoping ( SME-zaak ) .
+ENTITY 21:	SME-zaak
+ANSWER 21:	Category:Politics	Category:Crime
+
+
+SENTENCE:	Daarmee heeft Italië zich vastgelegd om de verplichtingen ten aanzien van CO2 reductie en de verdeling daarvan binnen EU kader na te komen .
+ENTITY 22:	CO2
+ANSWER 22:	Category:Energy	Category:Nature	Category:Health
+
+
+SENTENCE:	Italië toont zich derhalve actief in het kader van het Stabiliteitpact en van de Contactgroep inzake ex- Joegoslavië , als ' lead nation ' in de militaire operatie inzake Albanië , en als hoeder van een van de militaire sectoren in Kosovo .
+ENTITY 23:	Stabiliteitpact
+ANSWER 23:	Category:Military	Category:Politics	Category:Government
+
+
+SENTENCE:	Daarnaast is Italië een pleitbezorger van het ' EU-Barcelona-proces ' dat tot doel heeft de stabiliteit en veiligheid in de gehele Middellandse-Zeeregio te bevorderen .
+ENTITY 24:	EU-Barcelona-proces
+ANSWER 24:	Category:Law	Category:Politics	Category:Government
+
+
+SENTENCE:	Europese Grondwet
+ENTITY 25:	Grondwet
+ANSWER 25:	Category:Law	Category:Politics	Category:Government
+
+
+SENTENCE:	Italië is van oordeel dat de basis voor het succes van de Ieren inzake de consensus over de Europese Grondwet is gelegd tijdens het Italiaanse Voorzitterschap .
+ENTITY 26:	Voorzitterschap
+ANSWER 26:	Category:Politics	Category:Government
+
+
+SENTENCE:	De inzet van de Italianen in de Conventie ( onder andere komen tot een Europese grondwet , waarborging positie Commissie ) is grotendeels bereikt .
+ENTITY 27:	Conventie
+ANSWER 27:	Category:Politics	Category:Government
+
+
+SENTENCE:	Het ontbreken van een duidelijke verwijzing naar de Christelijke wortels van Europa wordt betreurd .
+ENTITY 28:	Christelijke
+ANSWER 28:	Category:Religion
+
+
+SENTENCE:	Uitbreiding/ GLB /Structuurfondsen
+ENTITY 29:	GLB
+ANSWER 29:	Category:Politics	Category:Economy	Category:Nature
+
+
+SENTENCE:	EVDB
+ENTITY 30:	EVDB
+ANSWER 30:	Category:Military	Category:Government	Category:Politics
+
+
+SENTENCE:	Italië is voorstander van versterking van het Europees Veiligheids- en Defensiebeleid , echter met zo min mogelijk duplicatie van hetgeen in NAVO -verband voor handen is .
+ENTITY 31:	Europees Veiligheids- en Defensiebeleid
+ANSWER 31:	Category:Military	Category:Government	Category:Politics
+
+
+SENTENCE:	In januari 2001 bracht Italiaanse minister van Defensie Martino een bezoek aan Nederland .
+ENTITY 32:	Defensie
+ANSWER 32:	Category:Military	Category:Government
+
+
+SENTENCE:	Op 23 juni 2003 bezocht toenmalig minister van Buitenlandse Zaken de Hoop Scheffer Italië in het kader van het Italiaanse EU-Voorzitterschap .
+ENTITY 33:	EU-Voorzitterschap
+ANSWER 33:	Category:Government	Category:Politics
+
+
+SENTENCE:	Op 3 mei 2004 bracht de Minister van Buitenlandse Zaken een bezoek aan Milaan voor een bilateraal onderhoud met Minister Frattini , alsmede in het kader van het eerste Nederlandse - Italiaanse forum dat op 3 en 4 mei te Milaan werd gehouden .
+ENTITY 34:	Minister van Buitenlandse Zaken
+ANSWER 34:	Category:Government	Category:Politics Category:World
+ENTITY 35:	Minister
+ANSWER 35:	Category:Government	Category:Politics
+
+
+SENTENCE:	In juni 2004 brachten meerdere Nederlandse bewindslieden een bezoek aan Italië ter voorbereiding van het Nederlandse voorzitterschap : Minister Peys van Verkeer en Waterstaat en haar Staatssecretaris Schultz , Staatssecretaris Wijn van Financiën en Staatssecretaris Geel van Milieu .
+ENTITY 36:	Verkeer en Waterstaat
+ANSWER 36:	Category:Government	Category:Politics	Category:Society
+ENTITY 37:	Staatssecretaris
+ANSWER 37:	Category:Government	Category:Politics
+ENTITY 38:	Milieu
+ANSWER 38:	Category:Nature	Category:Government
+
+
+SENTENCE:	4.3 OS -activiteiten
+ENTITY 39:	OS
+ANSWER 39:	Category:Technology
+
+
+SENTENCE:	Nederland wordt in Italië vertegenwoordigd door een ambassade te Rome en een consulaat-generaal ( CG ) te Milaan .
+ENTITY 40:	CG
+ANSWER 40:	Category:Government	Category:Politics
+
+
+SENTENCE:	Het CG Milaan behartigt de handelsbevordering en - bemiddeling voor heel Italië , behalve de relaties met de Italiaanse overheid ; deze worden door de ambassade onderhouden .
+ENTITY 41:	CG Milaan
+ANSWER 41:	Category:Government	Category:Politics Category:Business
+
+
+SENTENCE:	Daarnaast kent het CG een afdeling Pers en Culturele Zaken .
+ENTITY 42:	Pers
+ANSWER 42:	Category:Mass_media
+ENTITY 43:	Culturele Zaken
+ANSWER 43:	Category:Society	Category:Culture
+
+
+SENTENCE:	De EVD , een agentschap van het Ministerie van Economische Zaken , biedt aan Nederlandse bedrijven die zich op buitenlandse markten willen begeven , een scala aan instrumenten op zowel informatie- en voorlichtingsterrein als op het gebied van promotionele activiteiten .
+ENTITY 44:	Ministerie van Economische Zaken
+ANSWER 44:	Category:Government	Category:Business
+
+
+SENTENCE:	- Cultureel Verdrag , 5 mei 1951 , te Rome Vindplaats : Trb. 1952 , 10 .
+ENTITY 45:	Cultureel Verdrag
+ANSWER 45:	Category:Society	Category:Culture Category:Law
+ENTITY 46:	Trb.
+ANSWER 46:	
+
+
+SENTENCE:	- Notawisseling inzake de uitbreiding van het Europees Verdrag betreffende uitlevering tot de Nederlandse Antillen en Aruba , 23 december 1993 , Rome .
+ENTITY 47:	Verdrag
+ANSWER 47:	Category:Law	Category:Politics
+
+
+SENTENCE:	- Vragen van het lid Van Bommel ( SP ) over EU -subsidie aan Koningin Beatrix voor een olijfboomgaard in Toscane ( Italië ) , ingezonden 23 juli 2002 .
+ENTITY 48:	Koningin
+ANSWER 48:	Category:Politics	Category:Government	Category:Society
+
+
+SENTENCE:	EUROPEES OPENBAAR BEOORDELINGSRAPPORT ( EPAR )
+ENTITY 49:	EUROPEES OPENBAAR BEOORDELINGSRAPPORT
+ANSWER 49:	Category:Government	Category:Politics
+ENTITY 50:	EPAR
+ANSWER 50:	Category:Government	Category:Politics
+
+
+SENTENCE:	Algemeen kan je de N-VA centrum- rechts beschouwen , maar velen binnen N-VA gaan zich eerder centrum noemen , maar algemeen is de onderstroom en ligt het programma bij een sociaal , rechtse stroom , men kan de partij ook linken aan het Paleoconservatisme , en het « Compassionate Conservatism » , waar eigen responsabiliteit enorm belangrijk is in een gedachtevorming , « eigen verantwoordelijkheid , met respect voor de gemeenschap , voor het milieu » , dat is een belangrijk woordgebruik in het N-VA -programma ; men kan de partij ook wel een liberaal-conservatieve aard aanmeten .
+ENTITY 51:	Paleoconservatisme
+ANSWER 51:	Category:Politics	Category:Society	Category:Philosophy
+ENTITY 52:	Compassionate Conservatism
+ANSWER 52:	Category:Politics	Category:Society	Category:Philosophy
+
+
+SENTENCE:	Geert Bourgeois : Minister van Bestuurszaken , Buitenlands Beleid , Media , Toerisme en Ontwikkelingssamenwerking in de Vlaamse regering Leterme I ( 2004 - )
+ENTITY 53:	Bestuurszaken
+ANSWER 53:	Category:Society	Category:Government	Category:Politics
+ENTITY 54:	Buitenlands Beleid
+ANSWER 54:	Category:Government	Category:Politics
+ENTITY 55:	Media
+ANSWER 55:	Category:Mass_media
+ENTITY 56:	Toerisme
+ANSWER 56:	Category:Entertainment Category:Business
+ENTITY 57:	Ontwikkelingssamenwerking
+ANSWER 57:	Category:Society	Category:World	Category:Humanities
+
+
+SENTENCE:	Mr. J.W. Weck wordt vanaf 17 september de nieuwe directeur-generaal Bestuursdienst bij het ministerie van binnenlandse zaken .
+ENTITY 58:	Bestuursdienst
+ANSWER 58:	Category:Government
+
+
+SENTENCE:	Weck is sinds januari 1999 directeur-generaal Telecommunicatie en Post bij het ministerie van verkeer en waterstaat .
+ENTITY 59:	Telecommunicatie en Post
+ANSWER 59:	Category:Government	Category:Politics	Category:Technology
+
+
+SENTENCE:	Daarvoor was hij directeur-generaal Rijksluchtvaartdienst .
+ENTITY 60:	Rijksluchtvaartdienst
+ANSWER 60:	Category:Government	Category:Engineering
+
+
+SENTENCE:	Volgens het Centrum voor geboorteregeling en seksuele opvoeding stijgt het aantal abortussen op jonge leeftijd nog sneller .
+ENTITY 61:	Centrum
+ANSWER 61:	Category:Health	Category:Society
+
+
+SENTENCE:	Werbrouck won één keer olympisch goud ( in Atlanta ' 96 ) , zeven Europese titels en vier WK -medailles .
+ENTITY 62:	WK
+ANSWER 62:	Category:Sports	Category:World
+
+
+SENTENCE:	Opdat minister van Justitie Marc Verwilghen ( VLD ) cipiers in dienst zou kunnen nemen , doorbreken de ministers van Ambtenarenzaken Luc Van den Bossche ( SP.A ) en van Begroting Johan Vande Lanotte ( SP.A ) de vacaturestop voor ambtenaren .
+ENTITY 63:	Ambtenarenzaken
+ANSWER 63:	Category:Government
+ENTITY 64:	Begroting
+ANSWER 64:	Category:Economy	Category:Government
+
+
+SENTENCE:	De groep Sergio @ The Ladies wint met het lied Sister Eurosong 2002 en zal op 25 mei België vertegenwoordigen op het Eurovisiesongfestival in Estland .
+ENTITY 65:	Eurosong 2002
+ANSWER 65:	Category:Entertainment	Category:Mass_media
+
+
+SENTENCE:	Bij die recente vondst geven de beenderen van Eocursor parvus of ' kleine dageraadloper ' aan dat het wezen veel slanker en kleiner moet zijn geweest dan zijn corpulentere neef .
+ENTITY 66:	Eocursor
+ANSWER 66:	Category:Nature
+
+
+SENTENCE:	John Hutchinson van het Royal Veterinary College van de universiteit van Londen heeft een gedetailleerde mathematische studie uitgevoerd naar hoe de Tyrannosaurus rex , de grootste van alle op het land levende carnivoren , erin slaagde zich voort te bewegen .
+ENTITY 67:	Tyrannosaurus
+ANSWER 67:	Category:Nature	Category:History_&_Events
+
+
+SENTENCE:	Op basis van biomechanische berekeningen van de beenderstructuur die hij uitvoerde aan de hand van een serie computermodellen , concludeerde hij dat T. rex vooraan zwaar gebouwd moet zijn geweest en niet in staat was tot meer dan een lichte looppas van maximum 25 kilometer per uur .
+ENTITY 68:	T.
+ANSWER 68:	Category:Nature	Category:History_&_Events
+
+
+SENTENCE:	Microraptor gui is misschien geen directe voorouder van de hedendaagse vogels , maar eerder een van hun meer exotische verwanten .
+ENTITY 69:	Microraptor
+ANSWER 69:	Category:Nature	Category:History_&_Events
+
+
+SENTENCE:	Sectie : Ego
+ENTITY 70:	Ego
+ANSWER 70:	Category:Human_behavior
+
+
+SENTENCE:	Hij was zeker getalenteerd genoeg om in zijn vaders voetsporen te treden , maar toen in de jaren '30 de meer moderne en sobere architectuur van de Jugendstil haar intrede deed was de ornamentkunst plots uit de mode .
+ENTITY 71:	Jugendstil
+ANSWER 71:	Category:Culture 
+
+
+SENTENCE:	Vanaf eind jaren '50 , begin jaren '60 spraken zijn figuren ook geen Vlaams meer , maar ABN zodat de reeks ook in Nederland een succes kon worden .
+ENTITY 72:	ABN
+ANSWER 72:	Category:Human_behavior	Category:Culture	Category:Society
+
+
+SENTENCE:	Hij zou van 1948 tot 1959 voor het weekblad verscheidene verhalen rond Suske en Wiske tekenen die later bijna allemaal in een blauwe kaft gebundeld zouden worden en daarom bekendstaan als de Blauwe reeks .
+ENTITY 73:	Blauwe
+ANSWER 73:	Category:Culture
+
+
+SENTENCE:	De albums werden later in de Vierkleurenreeks hernomen , meestal in een verkorte uitgave .
+ENTITY 74:	Vierkleurenreeks
+ANSWER 74:	Category:Culture
+
+
+SENTENCE:	Hergé noemde Vandersteen zelfs " De Bruegel van het Beeldverhaal " .
+ENTITY 75:	De Bruegel van het Beeldverhaal
+ANSWER 75:	Category:Culture	Category:Entertainment
+
+
+SENTENCE:	In 2005 werd Vandersteen genomineerd als één van de 111 kanshebbers op de titel De Grootste Belg in de Vlaamse versie .
+ENTITY 76:	De Grootste Belg
+ANSWER 76:	Category:Society	Category:Entertainment
+
+
+SENTENCE:	Een probleem dat in de Middeleeuwen vrij algemeen moet zijn geweest , want Dequeker merkte het ook op in nog andere schilderijen .
+ENTITY 77:	Middeleeuwen
+ANSWER 77:	Category:History_&_Events	Category:Culture
+
+
+SENTENCE:	Paleopathologen hadden eerder vergelijkbare zaken vastgesteld voor Taino -kunstwerken uit de Dominicaanse Republiek .
+ENTITY 78:	Taino
+ANSWER 78:	Category:Society	Category:Humanities
+
+
+SENTENCE:	Intracytoplasmatische sperma-injectie ( ICSI ) is een techniek ontwikkeld door de ploeg rond André Van Steirteghem van het Fertiliteitscentrum aan de Vrije Universiteit Brussel .
+ENTITY 79:	ICSI
+ANSWER 79:	Category:Health
+
+
+SENTENCE:	Ook nu nog voelen ' zuidelijken ' zich benadeeld door de Reconstructie die hen werd opgelegd evenals de bevrijding van alle slaven .
+ENTITY 80:	Reconstructie
+ANSWER 80:	Category:History_&_Events	Category:Society
+
+
+SENTENCE:	Een oud conflict met de Noordelijke staten over de grootte van de afdracht van belastingen aan de Federale overheid deed dit conflict geen goed .
+ENTITY 81:	Federale
+ANSWER 81:	Category:Government	Category:Politics
+
+
+SENTENCE:	States Rights en vertegenwoordiging
+ENTITY 82:	States Rights
+ANSWER 82:	Category:Government
+
+
+SENTENCE:	Het aantal Afgevaardigden in het Congres werd bepaald door het aantal inwoners van een staat ; het Noorden had veel meer inwoners dan het Zuiden .
+ENTITY 83:	Afgevaardigden
+ANSWER 83:	Category:Government	Category:Politics	Category:Society
+
+
+SENTENCE:	Met name de Quakers gingen zeer ver door het opzetten van de Underground Railroad om weggelopen slaven te helpen .
+ENTITY 84:	Underground Railroad
+ANSWER 84:	Category:Engineering
+
+
+SENTENCE:	Toch bleef de Railway voortbestaan , tot ergernis van het Zuiden .
+ENTITY 85:	Railway
+ANSWER 85:	Category:Engineering
+
+
+SENTENCE:	Diezelfde Verenigde Staten namen , geschrokken door het verloop van de eerste slag en uit angst dat meer slavenstaten de Unie zouden verlaten , op 25 juli de Crittenden-Johnson Resolutie aan die Lincolns mantra bevestigde : de oorlog ging om behoud van de Unie , niet om het beëindigen van de slavernij .
+ENTITY 86:	Crittenden-Johnson Resolutie
+ANSWER 86:	Category:Government	Category:Society
+
+
+SENTENCE:	Zijn oog viel op een plan van de senior van het leger , majoor-generaal Winfield Scott : het Anaconda-plan .
+ENTITY 87:	Anaconda-plan
+ANSWER 87:	Category:Military	Category:Nature
+
+
+SENTENCE:	Hij ging zich richten op Lee , Sherman nam de rest van het Westen voor zijn rekening .
+ENTITY 88:	Westen
+ANSWER 88:	Category:Geography	Category:Military
+
+
+SENTENCE:	Niet erg ver om hem heen echter , wat tot een aantal spectaculaire veldslagen leidde : de Slag in de Wildernis en Spotsylvania zijn bekende namen uit deze campagne , die in zijn geheel de Wildernis-campagne genoemd wordt .
+ENTITY 89:	Wildernis-campagne
+ANSWER 89:	Category:Military	Category:Government
+
+
+SENTENCE:	De States ' Rights waar het Zuiden zo op gehamerd had , maakten meer en meer plaats voor Federaal overwicht .
+ENTITY 90:	States ' Rights
+ANSWER 90:	Category:Government
+ENTITY 91:	Federaal
+ANSWER 91:	Category:Government
+
+
+SENTENCE:	Deze inzichten zouden de vorm van oorlog dicteren tot en met de Eerste Wereldoorlog ; pas in 1940 zouden de Duitsers met behulp van verbrandingsmotoren en diesel een antwoord op het overgewicht van de verdedigingswapens bedenken , in de vorm van de Blitzkrieg .
+ENTITY 92:	Blitzkrieg
+ANSWER 92:	Category:History_&_Events	Category:Military
+
+
+SENTENCE:	Deze tactiek is sindsdien verboden door de Conventie van Genève .
+ENTITY 93:	Conventie van Genève
+ANSWER 93:	Category:Politics	Category:Government	Category:History_&_Events
+
+
+SENTENCE:	Maar immunologen hebben ontdekt dat in het bloed van eerstgeboren baby's hogere concentraties aanwezig zijn van een sleuteleiwit uit het afweersysteem dat met allergieën geassocieerd is : immunoglobuline E ( IgE ) .
+ENTITY 94:	IgE
+ANSWER 94:	Category:Nature	Category:Engineering
+
+
+SENTENCE:	Concrete toepassing nieuwe methodiek afbakening landbouwgebieden met bevestiging Agrarische en natuurlijke structuur Haspengouw - Voeren
+ENTITY 95:	Agrarische
+ANSWER 95:	Category:Food_and_drink	Category:Society
+
+
+SENTENCE:	In uitvoering van het Ruimtelijk Structuurplan Vlaanderen en op basis van een nieuwe methode die minister VAN MECHELEN in het najaar 2003 aanbracht , worden sinds midden 2004 systematisch afbakeningsprocessen voor de gebieden van de natuurlijke en agrarische structuur opgestart .
+ENTITY 96:	Ruimtelijk Structuurplan Vlaanderen
+ANSWER 96:	Category:Society	Category:Government
+
+
+SENTENCE:	Plaats in Top 100.000 volgens omzet : 1285
+ENTITY 97:	Top 100.000
+ANSWER 97:	Category:Economy
+
+
+SENTENCE:	Plaats in sector Brouwerijen en aanverwanten volgens omzet : 9
+ENTITY 98:	Brouwerijen
+ANSWER 98:	Category:Food_and_drink
+
+
+SENTENCE:	Plaats in sector Brouw . en aanverwanten volgens t.w. : 5
+ENTITY 99:	Brouw
+ANSWER 99:	Category:Food_and_drink
+
+
+SENTENCE:	Eind 19de eeuw was Nederland het gastland van een grote internationale vredesconferentie op initiatief van Tsaar Nicolaas II .
+ENTITY 100:	Tsaar
+ANSWER 100:	Category:Government	Category:Politics	Category:History_&_Events
