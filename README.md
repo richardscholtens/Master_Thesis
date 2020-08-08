@@ -43,3 +43,12 @@ considered too small to work. By removing Main Topic Classifications
 with a low frequency, one can create a more balanced dataset. By merging
 Main Topic Classifications one can increase the size of the dataset which
 helps improve robustness.
+
+## Pre-processing and calculating baseline scores - pre-processing_and_baseline.py
+
+Pre-processes the abstracts to Flair input. It creates files for multi-class
+and multi-label. The Flair library has a class named ClassificationCorpus
+that takes in the following format: __label__LABELNAME TAB TEXT. All text is
+stripped of punctuation using regex. The program also calculates the baseline
+scores using a DummyClassifier developed by SciKit Learn.
+
