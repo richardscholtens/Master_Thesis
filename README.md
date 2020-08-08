@@ -52,3 +52,13 @@ that takes in the following format: __label__LABELNAME TAB TEXT. All text is
 stripped of punctuation using regex. The program also calculates the baseline
 scores using a DummyClassifier developed by SciKit Learn.
 
+## Calculating the Kappa-score and creating a gold standard - gold_standard.py
+
+This programs reads two annotation files and processes them to calculate the
+Kappa-score. It also creates a gold standard by unifying the annotation
+labels of both annotation files. An annotation
+text file should have the following format:
+
+SENTENCE: TAB PDF -bestand over de rivier
+ENTITY 1: TAB PDF
+ANSWER 1: TAB Category:Technology TAB Category:Science
