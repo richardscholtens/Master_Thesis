@@ -27,3 +27,11 @@ merging and pruning steps. Therefore the performed methods succeeded
 in developing fine-grained entity multi-label classifications system but could not be
 considered robust enough. Therefor more information retrieval methods and optimization steps
 should be considered in future research. 
+
+## Scraping DBpedia using SPARQL-queries - retrieve_information.py
+
+This program retrieves information about Wikipedia's Main Topic
+Classification articles by using four different collection strategies.
+Information is retrieved using SPARQL-queries to extract Dutch abstract data
+per article from DBpedia. All information retrieved is then converted to a
+JSON file.
