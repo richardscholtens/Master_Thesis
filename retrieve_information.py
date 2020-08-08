@@ -431,8 +431,7 @@ def main():
         dic, check, counter = collection_strategy1(classification,
                                                    dic,
                                                    0,
-                                                   1)
-        check = False
+                                                   max_range)
         if not check:
             dic, check, counter = collection_strategy2(classification,
                                                        dic,
