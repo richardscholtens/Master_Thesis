@@ -113,7 +113,6 @@ def create_gold_standard(dic1, dic2):
                 # Use this code if you want unified gold standard.
                 union = list(set(tup1[1][i]).union(set(tup2[1][i])))
                 for ii in range(len(union)):
-                    print(union[ii])
                     file.write('{0}\t'.format(union[ii]))
                 file.write('\n')
 
