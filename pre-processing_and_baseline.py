@@ -157,7 +157,7 @@ def create_train_dev_test(file_name):
     return X_train, Y_train, X_val, Y_val, X_test, Y_test
 
 
-def print_scores(classifier, y_true, y_pred, average='macro'):
+def print_scores(y_true, y_pred, average='macro'):
     """Calculates accuracy, precison, recall, F1-scores and.
     then prints te results."""
     print('Printing {} scores...\n'.format(average))
@@ -187,12 +187,12 @@ def get_baseline(X_train, Y_train, X_val, Y_val, X_test, Y_test):
     prediction_test = dummy_clf.predict(X_test)
 
     print('CALCULATING DEVELOPMENT SCORES DUMMYCLASSIFIER.\n')
-    print_scores(dummy_clf, Y_val, prediction_development)
-    print_scores(dummy_clf, Y_val, prediction_development, 'micro')
+    print_scores(Y_val, prediction_development)
+    print_scores(Y_val, prediction_development, 'micro')
 
     print('CALCULATING TEST SCORES DUMMYCLASSIFIER.\n')
-    print_scores(dummy_clf, Y_test, prediction_test)
-    print_scores(dummy_clf, Y_test, prediction_test, 'micro')
+    print_scores(Y_test, prediction_test)
+    print_scores(Y_test, prediction_test, 'micro')
 
     # Optional baseline:
     # Define a pipeline combining a text feature extractor with multi lable
@@ -208,12 +208,12 @@ def get_baseline(X_train, Y_train, X_val, Y_val, X_test, Y_test):
     prediction_test = NB_pipeline.predict(X_test)
 
     print('CALCULATING DEVELOPMENT SCORES NB_PIPLINE.\n')
-    print_scores(NB_pipeline, Y_val, prediction_development)
-    print_scores(NB_pipeline, Y_val, prediction_development, 'micro')
+    print_scores(Y_val, prediction_development)
+    print_scores(Y_val, prediction_development, 'micro')
 
     print('CALCULATING TEST SCORES NB_PIPLINE.\n')
-    print_scores(NB_pipeline, Y_test, prediction_test)
-    print_scores(NB_pipeline, Y_test, prediction_test, 'micro')
+    print_scores(Y_test, prediction_test)
+    print_scores(Y_test, prediction_test, 'micro')
 
 
 def change_to_multi_label(dictionary):
