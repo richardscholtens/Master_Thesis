@@ -89,7 +89,6 @@ def write_flair_input_multi_label(dictionary, file_name, chunks=False):
     __label__LABELNAME __label__LABELNAME TAB TEXT
 
     """
-
     with open(file_name, 'w+') as file:
 
         for abstract, labels in dictionary.items():
