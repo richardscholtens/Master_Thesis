@@ -57,8 +57,8 @@ def write_file(file, label, line, chuncks=False, multi_label=False):
 
 
 def write_flair_input_multi_class(dictionary, file_name, chunks=False):
-    """Expects a list of dictionaries as input that
-    have the following architecture:
+    """Expects a dictionary as input that
+    has the following architecture:
 
     dictionary[topic][category][entity] = abstract
 
@@ -75,8 +75,8 @@ def write_flair_input_multi_class(dictionary, file_name, chunks=False):
 
 
 def write_flair_input_multi_label(dictionary, file_name, chunks=False):
-    """Expects a list of dictionaries as input that
-    have the following architecture:
+    """Expects a dictionary as input that
+    has the following architecture:
 
     dictionary[abstract] = [labels]
 
@@ -100,8 +100,8 @@ def write_flair_input_multi_label(dictionary, file_name, chunks=False):
 
 
 def get_split(text):
-    """Splits text in chuncks of 200 characters and returns
-    a list with these chuncks as elements."""
+    """Splits text in chunks of 200 characters and returns
+    a list with these chunks as elements."""
     total = []
     l_parcial = []
     if len(text.split()) // 150 > 0:
