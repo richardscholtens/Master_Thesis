@@ -34,7 +34,8 @@ This program retrieves information about Wikipedia's Main Topic
 Classification articles by using four different collection strategies.
 Information is retrieved using SPARQL-queries to extract Dutch abstract data
 per article from DBpedia. All information retrieved is then converted to a
-JSON file.
+JSON file. One has to note that DBpedia is a dynamic database, and thus the
+frequencies of articles per MTC written in the thesis may vary over time. 
 
 ## Removing and merging Main Topic Classification articles - remove_merge_mtcs.py
 
