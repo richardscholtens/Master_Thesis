@@ -361,7 +361,7 @@ def collection_strategy4(topic, dic, counter, max_range):
                         for abstract in abstracts:
                             print("ENTITY: {0}\n".format(entity))
                             print("ABSTRACT: {0}\n\n".format(abstract))
-                            dic[topic][subject][new_entity] = abstract
+                            dic[topic][subject][entity] = abstract
                             counter += 1
                     except:
                         pass
