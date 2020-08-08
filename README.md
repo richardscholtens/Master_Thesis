@@ -35,3 +35,11 @@ Classification articles by using four different collection strategies.
 Information is retrieved using SPARQL-queries to extract Dutch abstract data
 per article from DBpedia. All information retrieved is then converted to a
 JSON file.
+
+## Removing and merging Main Topic Classification articles - remove_merge_mtcs.py
+
+A program that removes and merges Main Topic Classifications that are
+considered too small to work. By removing Main Topic Classifications
+with a low frequency, one can create a more balanced dataset. By merging
+Main Topic Classifications one can increase the size of the dataset which
+helps improve robustness.
