@@ -63,3 +63,10 @@ text file should have the following format:
 SENTENCE: TAB PDF -bestand over de rivier
 ENTITY 1: TAB PDF
 ANSWER 1: TAB Category:Technology TAB Category:Science
+
+## Training and evaluating the Flair LSTM models - training_evaluation.ipynb
+
+This programs converts the Flair input texts (flair_train.txt, flair_dev.txt and flair_test.txt) into
+classification corpus. This is than converted to document embeddings for the LSTM models. By doing so
+the training process can take place. After creating the models the program can evaluate a system by 
+making predictions on the gold standard.
