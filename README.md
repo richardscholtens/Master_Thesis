@@ -67,3 +67,7 @@ ANSWER 1: TAB Category:Technology TAB Category:Science
 This program converts the Flair input texts (flair_train.txt, flair_dev.txt and flair_test.txt) into
 classification corpus. Then the classification corpus converts to document embeddings for the LSTM models. By doing so,
 the training process can take place. After creating the models, the program can evaluate a system by making predictions on the gold standard.
+
+## Results
+
+To see all logs of used models one has to download and unpack the zip files in the results directory.
